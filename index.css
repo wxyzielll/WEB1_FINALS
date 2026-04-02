@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #1B4332;
+}
+
+header{
+    background-color: #2D6A4F;
+    display: flex;
+    padding: 13px 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    height: 100px;
+    margin-left: 450px;
+}
+
+.hero {
+    background: url(cover.jpg) no-repeat center center/cover;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 100px;
+}
+
+.btn {
+    display: inline-block;
+    background: #95D5B2;
+    color: black;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    height: 800px;
+    background: url(bg1.jpg) no-repeat center/cover;
+}
+
+.Biography{
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.box1{
+    background-color: rgba(58, 90, 64, 0.6);
+    border: 3px solid #95D5B2;
+    width: 500px;
+    height: 500px;
+    padding-top: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.box1 h2{
+    text-align: center;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.box2{
+    background-color: rgba(58, 90, 64, 0.6);
+    border: 3px solid #95D5B2;
+    width: 500px;
+    height: 500px;
+    padding-top: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.box2 h2{
+    text-align: center;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.box3{
+    background-color: rgba(58, 90, 64, 0.6);
+    border: 3px solid #95D5B2;
+    width: 500px;
+    height: 500px;
+    padding-top: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.box3 h2{
+    text-align: center;
+    padding-bottom: 50px;
+    color: white;
+}
+
+p{
+    text-align: center;
+    color: #EDEDED;
+}
+
+.works{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.works-text{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.albums{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.lover{
+    height: 500px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+    background: url(season1.jpg) no-repeat center/cover;
+}
+
+.reputation{
+    height: 500px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+    background: url(season2.jpg) no-repeat center/cover;
+}
+
+.showgirl{
+    height: 500px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+    background: url(season3.jpg) no-repeat center/cover;
+}
+
+.about {
+    background-color: #2D6A4F;
+    padding: 50px 20px;
+    text-align: center;
+    height: 800px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-text h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 19px;
+    color: #EDEDED;
+    margin-bottom: 15px;
+}
+
+.about-text button {
+    background: #95D5B2;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.about-text button:hover {
+    background-color: #74C69D;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    background: url(bg2.jpg) no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+    height: 800px;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: transparent;
+    border: 3px solid #95D5B2;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #95D5B2;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2D6A4F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1B4332;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: white;
+}
+
+footer p{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+}
